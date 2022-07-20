@@ -7,6 +7,7 @@ const AddTask = ({add}) => {
   // console.log(data)
 
   const [text,setText] = useState("")
+  
 
   return (
     <div className={styles.todoForm} style={{marginTop : "10px"}}>
